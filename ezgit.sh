@@ -1,4 +1,5 @@
 #!/bin/bash
+#push to main branch with commit message
 
 if [[ ! -n $2 ]]; then
   if [[ -n $1 && ! $1 =~ [0-9] ]]; then
