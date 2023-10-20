@@ -1,4 +1,4 @@
 #!/bin/bash
 #zypper refresh repos and update system
 sudo zypper ref
-sudo zypper -y update
+sudo zypper update -y 
