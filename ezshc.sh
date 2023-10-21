@@ -10,6 +10,6 @@ find . -type f -name "*.sh.x" -print0 | while IFS= read -r -d '' file; do
     mv $file ${file%.sh.x}
 done
 
-echo "Done!"
+echo "Done"
 
 
