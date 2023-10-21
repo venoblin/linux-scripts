@@ -1,5 +1,7 @@
-#!/bin/bash
+#!/bin/zsh
 #turns all .sh files to binary then removes extension
+config_file="~/.zshrc"
+
 echo "Turning files to binary"
 find . -type f -name "*.sh" -print0 | while IFS= read -r -d '' file; do
     shc -f $file
@@ -10,6 +12,8 @@ find . -type f -name "*.sh.x" -print0 | while IFS= read -r -d '' file; do
     mv $file ${file%.sh.x}
 done
 
-echo "Done"
+echo "Reloading configuration file"
+source ~/.zshrc
 
+echo "Done"
 
