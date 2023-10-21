@@ -1,6 +1,5 @@
 #!/bin/bash
-#Turns all .sh files to binary then removes extension
-#!/bin/bash
+#turns all .sh files to binary then removes extension
 echo "Turning files to binary"
 find . -type f -name "*.sh" -print0 | while IFS= read -r -d '' file; do
     shc -f $file
