@@ -1,5 +1,6 @@
 #!/bin/bash
 #activates venv at given location
 location="/venv/bin/activate"
-source $location
-echo "Activated"
+if source $location; then
+  echo "Activated"
+fi
