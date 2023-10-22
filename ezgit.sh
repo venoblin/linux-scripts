@@ -1,5 +1,5 @@
 #!/bin/zsh
-#push to main branch with commit message
+#push to current branch with commit message
 current_branch=$(git symbolic-ref --short HEAD)
 
 if [[ ! -n $2 ]]; then
