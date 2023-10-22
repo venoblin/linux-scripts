@@ -5,9 +5,10 @@ find . -type f -name "*.sh" -print0 | while IFS= read -r -d '' file; do
     shc -f $file
 done
 
-echo "Removing extensions"
+echo "Removing extensions and moving to bin directory"
 find . -type f -name "*.sh.x" -print0 | while IFS= read -r -d '' file; do
     mv $file ${file%.sh.x}
+    mv ${file%.sh.x} bin/
 done
 
 echo "Done"
