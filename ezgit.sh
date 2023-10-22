@@ -6,7 +6,7 @@ if [[ ! -n $2 ]]; then
     git commit -m "$1"
     git push origin main
   else
-    echo "String needed for the message!"
+    echo "Error: string needed for the message" >&2
   fi
-  else echo "Too many arguments detected, only a message needed!"
+  else echo "Error: too many arguments detected, only a message needed" >&2
 fi
