@@ -9,5 +9,5 @@ else
   mkdir bin
   ./ezshc.sh
 
-  source ~/.zshrc
+  # source ~/.zshrc
 fi
