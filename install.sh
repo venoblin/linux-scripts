@@ -5,6 +5,9 @@ if [ -d "bin/" ]; then
 else
   echo "Installing..."
   echo "Creating bin directory"
+
   mkdir bin
   ./ezshc.sh
+
+  source ~/.zshrc
 fi
