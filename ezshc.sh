@@ -3,8 +3,10 @@
 #and removes intermediate files
 echo "Turning files to binary and moving them to bin directory"
 find . -type f -name "*.sh" -print0 | while IFS= read -r -d '' file; do
-    shc -f $file -o ${file%.sh}
-    mv ${file%.sh} bin/
+    if [[ $file != "./install.sh" ]]; then
+        shc -f $file -o ${file%.sh}
+        mv ${file%.sh} bin/
+    fi
 done
 
 echo "Cleaning up"
