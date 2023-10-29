@@ -1,15 +1,10 @@
 #!/bin/zsh
 #turns all scripts to binary, renames them, moves them to bin directory,
 #and removes intermediate files
-echo "Turning files to binary"
+echo "Turning files to binary and moving them to bin directory"
 find . -type f -name "*.sh" -print0 | while IFS= read -r -d '' file; do
-    shc -f $file
-done
-
-echo "Renaming binaries and moving to bin directory"
-find . -type f -name "*.sh.x" -print0 | while IFS= read -r -d '' file; do
-    mv $file ${file%.sh.x}
-    mv ${file%.sh.x} bin/
+    shc -f $file -o ${file%.sh}
+    mv ${file%.sh} bin/
 done
 
 echo "Cleaning up"
