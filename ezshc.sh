@@ -1,6 +1,7 @@
 #!/bin/zsh
 #turns all scripts to binary, renames them, moves them to bin directory,
 #and removes intermediate files
+
 echo "Making binaries and moving them to bin directory"
 find . -type f -name "*.sh" -print0 | while IFS= read -r -d '' file; do
     if [[ $file != "./install.sh" ]]; then
