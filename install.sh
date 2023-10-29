@@ -8,6 +8,4 @@ else
 
   mkdir bin
   ./ezshc.sh
-
-  # source ~/.zshrc
 fi
