@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-if [ -d "/bin" ]; then
+if [ -d "bin" ]; then
   echo "Bin directory already exists"
 else
   mkdir bin
