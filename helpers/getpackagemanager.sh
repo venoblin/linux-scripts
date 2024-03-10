@@ -2,12 +2,14 @@
 #gets systems package manager 
 
 if which zypper &>/dev/null; then
-  package_manager="zypper" 
+  PACKAGE_MANAGER="zypper" 
 elif which dnf &>/dev/null; then
-  package_manager="dnf"
+  PACKAGE_MANAGER="dnf"
 elif which apt &>/dev/null; then
-  package_manager="apt"
+  PACKAGE_MANAGER="apt"
 else
   echo "Error: Unsupported package manager"
   exit 1
 fi
+
+export $PACKAGE_MANAGER

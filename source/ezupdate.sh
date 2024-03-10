@@ -1,11 +1,14 @@
 #!/bin/zsh
 #zypper refresh repos and update system
 
-if which zypper &>/dev/null; then
+source $(dirname "$0")/../helpers/getpackagemanager.sh
+
+
+if [[ $PACKAGE_MANAGER == "zypper" ]]; then
   sudo zypper update -y 
-elif which dnf &>/dev/null; then
+elif [[ $PACKAGE_MANAGER == "dnf" ]]; then
   sudo dnf update -y
-elif which apt &>/dev/null; then
+elif [[ $PACKAGE_MANAGER == "apt" ]]; then
   sudo apt update
   sudo apt upgrade -y
 else
