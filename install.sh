@@ -40,7 +40,7 @@ echo "Creating bin directory."
 mkdir bin
 
 echo "Writing to zshrc file."
-bin_location="$(pwd)/bin"
+bin_location="$(dirname "$0")/bin"
 zshrc_file="$HOME/.zshrc"
 if ! grep -q "export PATH.*$bin_location" $zshrc_file; then
   echo 'export PATH="'"$bin_location"':$PATH"' | cat - "$zshrc_file" > temp && mv temp "$zshrc_file"
