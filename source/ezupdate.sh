@@ -1,7 +1,7 @@
 #!/bin/zsh
 #zypper refresh repos and update system
 
-source $(dirname "$0")/../helpers/getpackagemanager.sh
+getpackagemanager
 
 if [[ "$PACKAGE_MANAGER" == "zypper" ]]; then
   sudo zypper update -y 

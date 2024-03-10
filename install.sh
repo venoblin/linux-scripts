@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-source $(dirname "$0")/helpers/getpackagemanager.sh
+source $(dirname "$0")/source/getpackagemanager.sh
 
 if [ -d "bin/" ]; then
   rm -rf bin/
@@ -46,6 +46,6 @@ if ! grep -q "export PATH.*$bin_location" $zshrc_file; then
   echo 'export PATH="'"$bin_location"':$PATH"' | cat - "$zshrc_file" > temp && mv temp "$zshrc_file"
 fi
 
-./ezshc.sh
+./source/ezshc.sh
 
 
