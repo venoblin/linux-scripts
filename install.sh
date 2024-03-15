@@ -1,7 +1,5 @@
 #!/bin/zsh
 
-source $(dirname "$0")/source/getpackagemanager.sh
-
 if [ -d "bin/" ]; then
   rm -rf bin/
 fi
@@ -19,12 +17,15 @@ if ! command -v shc &> /dev/null; then
 
   #yes or no response case sensitive
   if [[ "$REPLY" =~ ^[Yy]$ ]]; then
-    if [[ "$PACKAGE_MANAGER" == "zypper" ]]; then
-      sudo zypper install shc 
-    elif [[ "$PACKAGE_MANAGER" == "dnf" ]]; then
+    if which zypper &>/dev/null; then
+      sudo zypper install shc   
+    elif which dnf &>/dev/null; then
       sudo dnf install shc
-    elif [[ "$PACKAGE_MANAGER" == "apt" ]]; then
+    elif which apt &>/dev/null; then
       sudo apt install shc
+    else
+      echo "Error: Unsupported package manager"
+      exit 1
     fi
   elif [[ "$REPLY" =~ ^[Nn]$ ]]; then
     echo "Exiting..."
