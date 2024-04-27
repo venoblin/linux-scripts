@@ -18,11 +18,11 @@ if ! command -v shc &> /dev/null; then
   #yes or no response case sensitive
   if [[ "$REPLY" =~ ^[Yy]$ ]]; then
     if which zypper &>/dev/null; then
-      sudo zypper install shc   
+      sudo zypper install shc gcc
     elif which dnf &>/dev/null; then
-      sudo dnf install shc
+      sudo dnf install shc gcc-c++
     elif which apt &>/dev/null; then
-      sudo apt install shc
+      sudo apt install shc gcc
     else
       echo "Error: Unsupported package manager"
       exit 1
