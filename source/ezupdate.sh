@@ -1,5 +1,5 @@
 #!/bin/zsh
-#zypper refresh repos and update system
+#updates system, currently only supports zypper, dnf, and apt package managers
 
 if which zypper &>/dev/null; then
   sudo zypper update -y  
