@@ -2,6 +2,7 @@
 #updates system, currently only supports zypper, dnf, and apt package managers
 
 if which zypper &>/dev/null; then
+  sudo zypper ref
   sudo zypper update -y  
 elif which dnf &>/dev/null; then
   sudo dnf update -y
