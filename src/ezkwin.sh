@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/bash
 #-u flag upgrades
 #-i flag insalls
 #then we define the path of the root of the kwin script

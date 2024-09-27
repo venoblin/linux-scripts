@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/bash
 #push to current branch with commit message
 
 current_branch=$(git symbolic-ref --short HEAD)

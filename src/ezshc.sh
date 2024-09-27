@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/bash
 #turns all scripts to binary, renames them, moves them to bin directory,
 #and removes intermediate files
 
