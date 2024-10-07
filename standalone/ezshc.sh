@@ -3,11 +3,9 @@
 #and removes intermediate files
 
 echo "Making binaries and moving them to bin directory."
-find . -type f -name "*.sh" -print0 | while IFS= read -r -d '' file; do
-    if [[ $file != "./install.sh" && $file != "./src/ezgitsetup.sh" ]]; then
-        shc -f $file -o ${file%.sh}
-        mv ${file%.sh} bin/
-    fi
+find . -type f -wholename "./src/*.sh" -print0 | while IFS= read -r -d '' file; do
+    shc -f $file -o ${file%.sh}
+    mv ${file%.sh} bin/
 done
 
 echo "Cleaning up."

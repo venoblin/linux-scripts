@@ -47,6 +47,6 @@ if ! grep -q "export PATH.*$bin_location" $zshrc_file; then
   echo 'export PATH="'"$bin_location"':$PATH"' | cat - "$zshrc_file" > temp && mv temp "$zshrc_file"
 fi
 
-./src/ezshc.sh
+./standalone/ezshc.sh
 
 
