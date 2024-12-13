@@ -13,3 +13,7 @@ if command -v zsh &> /dev/null; then
     exit 1
   fi
 fi
+
+chsh -s /bin/zsh
+
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
