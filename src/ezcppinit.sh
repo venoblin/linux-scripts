@@ -8,6 +8,15 @@ if [[ -z "$1" ]]; then
 fi
 
 mkdir $(pwd)/src
+touch $(pwd)/src/main.cpp
+echo "#include <iostream>
+
+int main() {
+
+  std::cout << \"Hello World!\" << std::endl;
+
+  return 0;
+}" > $(pwd)/src/main.cpp
 
 touch $(pwd)/CMakeLists.txt
 echo "cmake_minimum_required (VERSION 3.30.5)
@@ -23,6 +32,7 @@ project (
 add_executable ("$project_name" \${SOURCE_FILES})"> $(pwd)/CMakeLists.txt
 
 touch $(pwd)/build.sh
+chmod +x build.sh
 echo "#!/bin/bash
 
 if ! [ -d \"build/\" ]; then
@@ -34,6 +44,7 @@ cd build/ && cmake ../ && make
 echo \"Built "$project_name" in build directory.\"" > $(pwd)/build.sh
 
 touch $(pwd)/run.sh
+chmod +x run.sh
 echo "#!/bin/bash
 
 if [ -d \"build/\" ]; then
