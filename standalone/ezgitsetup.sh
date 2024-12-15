@@ -1,8 +1,13 @@
 #!/bin/bash
 #easy git setup on machine, creates an ssh key and returns it 
 
-git config --global user.name "Your Name"
-git config --global user.email "yourname@example.com"
+if [[ ! -n $2 ]]; then
+  echo "Error: name and email required." >&2
+  exit 1
+fi
+
+git config --global user.name $1
+git config --global user.email $2
 
 git config --global init.defaultBranch main
 git config --global color.ui auto
