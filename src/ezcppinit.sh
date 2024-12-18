@@ -7,6 +7,7 @@ if [[ -z "$1" ]]; then
   exit 1
 fi
 
+mkdir $(pwd)/include
 mkdir $(pwd)/src
 touch $(pwd)/src/main.cpp
 echo "#include <iostream>
@@ -28,6 +29,8 @@ project (
   DESCRIPTION \"description\"
   LANGUAGES CXX
 )
+
+include_directories(include) 
 
 add_executable ("$project_name" \${SOURCE_FILES})"> $(pwd)/CMakeLists.txt
 
