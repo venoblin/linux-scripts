@@ -6,6 +6,7 @@ if [ -f "README.md" ]; then
   exit 1
 fi 
 
-readme_file="$HOME/dev/scripts/files/README.MD"
+scripts_location=$(dirname $(dirname $(command -v ezreadmeinit)))
+readme_file="$scripts_location/files/README.md"
 
 cp -r $readme_file $(pwd)
