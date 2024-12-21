@@ -1,7 +1,7 @@
 <br/>
 <div align="center">
 <a href="https://github.com/venoblin/scripts">
-<img src=".project-images/project-logo.png" alt="Termnial logo" />
+<img src=".project-images/project-logo.png" alt="Termnial logo" height="128px" />
 </a>
 
 <h3 align="center">Scripts</h3>
