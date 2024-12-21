@@ -19,9 +19,8 @@ An awesome ReadMe Generator to Jumpstart your Projects!
 
 ![Contributors](https://img.shields.io/github/contributors/user/repo?color=dark-green) ![Issues](https://img.shields.io/github/issues/user/repo) ![License](https://img.shields.io/github/license/user/repo)
 
-## Table of Contents
+Table of Contents
 
-- [Table of Contents](#table-of-contents)
 - [About The Project](#about-the-project)
   - [Built With](#built-with)
 - [Getting Started](#getting-started)
@@ -88,49 +87,37 @@ Now you are ready to use Yarn for managing and versioning your project dependenc
 
 ### Installation
 
-Please follow the following steps for successful installation:
-
-1. **Clone the Repository:** Get started by cloning the repository to your local machine.
-
-  ```
-  https://github.com/user/repo
-  ```
-
-2. **Install Frontend Packages:** Navigate to the &quot;/frontend&quot; directory and install the required yarn packages by executing the following command in your terminal:
+1. **Clone the repository** 
 
   ```sh
-  yarn install
+  git clone --recurse-submodules https://github.com/venoblin/scripts
   ```
 
-3. **Install Backend Packages:** Similarly, navigate to the &quot;/backend&quot; directory and install the required yarn packages by executing the following command in your terminal:
+2. **Create settings file (for [ezdownloadsorter](https://github.com/venoblin/download-file-sorter))**
 
   ```sh
-  yarn install
+  cd scripts
+  touch settings.json
   ```
 
-4. **Set Up Environment:**
+1. **Modify `settings.json`** 
 
-  - In the &quot;/backend&quot; directory, copy the content of &quot;.env.example&quot; file and create a new file named &quot;.env&quot;. Adjust the environment variables according to your requirements or you can leave them as it is.
+  ```json
+  {
+    "downloads": "/path/to/Downloads",
+    "destinations": {
+      ".file-extension": "/path/to/destination",
+      ".file-extension": "/path/to/destination",
+      ".file-extension": "/path/to/destination"
+    }
+  }
+  ```
 
-  - Navigate to &quot;frontend/api/generated/readMeGenerator.ts&quot; and set the BASE parameter to your backend API route. For instance, if you are running backend on your local server at port 8080, you should set:
-
-    ```javascript
-    BASE: "http://localhost:8080/api";
-    ```
-
-5. **Run the Backend:** Navigate to &quot;/backend&quot; directory and type the following command in your terminal to run your backend server:
-
+4. **Install scripts** 
+  
   ```sh
-  yarn dev
+  ./install.sh
   ```
-
-6. **Run the Frontend:** Finally, navigate to &quot;/frontend&quot; directory and type the following command in your terminal to run your frontend server:
-
-  ```sh
-  yarn dev
-  ```
-
-  Now, your application should be successfully up and running!
 
 ## Roadmap
 
