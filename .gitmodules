@@ -1,0 +1,3 @@
+[submodule "src/download-file-sorter"]
+	path = src/download-file-sorter
+	url = git@github.com:venoblin/download-file-sorter.git
