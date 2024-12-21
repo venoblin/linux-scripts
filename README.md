@@ -82,14 +82,14 @@ Current scripts are used in an Linux enviroment using `zypper`, `dnf`, or `apt` 
   git clone --recurse-submodules https://github.com/venoblin/scripts
   ```
 
-2. **Create settings file (for [ezdownloadsorter](https://github.com/venoblin/download-file-sorter))**
+2. **Create `settings.json` file in project root directory (for [ezdownloadsorter](https://github.com/venoblin/download-file-sorter))**
 
   ```sh
   cd scripts
   touch settings.json
   ```
 
-1. **Modify `settings.json`** 
+3. **Modify `settings.json`** 
 
   ```json
   {
