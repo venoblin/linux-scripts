@@ -30,7 +30,7 @@ project (
   LANGUAGES CXX
 )
 
-include_directories(include) 
+include_directories(\${CMAKE_CURRENT_SOURCE_DIR}/include) 
 
 add_executable ("$project_name" \${SOURCE_FILES})"> $(pwd)/CMakeLists.txt
 
