@@ -51,8 +51,9 @@ if ! grep -q "export PATH.*$bin_location" $zshrc_file; then
   echo 'export PATH="'"$bin_location"':$PATH"' | cat - "$zshrc_file" > temp && mv temp "$zshrc_file"
 fi
 
-ln -s $HOME/dev/scripts/src/download-file-sorter/app.py bin/ezdownloadsorter
+ln -s $(pwd)/src/download-file-sorter/app.py bin/ezdownloadsorter
 
 ./standalone/ezshc.sh
+
 
 
