@@ -1,199 +1,122 @@
 <br/>
 <div align="center">
-<a href="https://github.com/user/repo">
-<img src="images/logo.png" alt="Logo" width="80" height="80">
+<a href="https://github.com/venoblin/scripts">
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 32 32">
+	<defs>
+		<linearGradient id="vscodeIconsFileTypePowershell0" x1="23.325" x2="7.26" y1="-118.543" y2="-104.193" gradientTransform="matrix(1 0 0 -1 0 -96)" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#5391fe" />
+			<stop offset="1" stop-color="#3e6dbf" />
+		</linearGradient>
+		<linearGradient id="vscodeIconsFileTypePowershell1" x1="7.1" x2="23.001" y1="-104.002" y2="-118.292" href="#vscodeIconsFileTypePowershell0" />
+	</defs>
+	<path fill="url(#vscodeIconsFileTypePowershell0)" fill-rule="evenodd" d="M3.174 26.589a1.15 1.15 0 0 1-.928-.423a1.23 1.23 0 0 1-.21-1.052L6.233 6.78a1.8 1.8 0 0 1 1.681-1.37h20.912a1.16 1.16 0 0 1 .928.423a1.24 1.24 0 0 1 .21 1.052l-4.2 18.335a1.8 1.8 0 0 1-1.681 1.37H3.174Z" />
+	<path fill="url(#vscodeIconsFileTypePowershell1)" fill-rule="evenodd" d="M7.914 5.646h20.912a.913.913 0 0 1 .908 1.187l-4.2 18.334a1.575 1.575 0 0 1-1.451 1.187H3.174a.913.913 0 0 1-.908-1.187l4.2-18.334a1.57 1.57 0 0 1 1.448-1.187" />
+	<path fill="#2c5591" fill-rule="evenodd" d="M16.04 21.544h5.086a1.118 1.118 0 0 1 0 2.234H16.04a1.118 1.118 0 0 1 0-2.234m3.299-4.966a1.76 1.76 0 0 1-.591.6l-9.439 6.775a1.224 1.224 0 0 1-1.438-1.977l8.512-6.164v-.126L11.035 10a1.224 1.224 0 0 1 1.782-1.672l6.418 6.827a1.166 1.166 0 0 1 .104 1.423" />
+	<path fill="#fff" fill-rule="evenodd" d="M19.1 16.342a1.75 1.75 0 0 1-.59.6l-9.436 6.776a1.225 1.225 0 0 1-1.439-1.977l8.513-6.164v-.127L10.8 9.761a1.224 1.224 0 0 1 1.783-1.672L19 14.916a1.16 1.16 0 0 1 .1 1.426m-3.2 5.07h5.086a1.059 1.059 0 1 1 0 2.118H15.9a1.059 1.059 0 1 1 0-2.118" />
+</svg>
 </a>
-<h3 align="center">repo</h3>
+
+<h3 align="center">Scripts</h3>
 <p align="center">
-An awesome ReadMe Generator to Jumpstart your Projects!
+Scripts to make your life easier!
 <br/>
 <br/>
-<a href="https://github.com/user/repo/wiki"><strong>Explore the docs »</strong></a>
-<br/>
-<br/>
-<a href="https://www.repo.com">View Demo .</a>  
-<a href="https://github.com/user/repo/issues/new?labels=bug&amp;template=bug_report.md">Report Bug .</a>
-<a href="https://github.com/user/repo/issues/new?labels=enhancement&amp;&template=feature_request.md">Request Feature</a>
 </p>
 </div>
-
-![Contributors](https://img.shields.io/github/contributors/user/repo?color=dark-green) ![Issues](https://img.shields.io/github/issues/user/repo) ![License](https://img.shields.io/github/license/user/repo)
 
 ## Table of Contents
 
 - [Table of Contents](#table-of-contents)
 - [About The Project](#about-the-project)
+  - [Scripts](#scripts)
   - [Built With](#built-with)
 - [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
   - [Installation](#installation)
-- [Roadmap](#roadmap)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-- [Acknowledgments](#acknowledgments)
-- [Notice](#notice)
 
 ## About The Project
 
-![Screenshot](images/demo.gif)
+### Scripts
 
-One of the challenges with building and contributing to open source software is that while many projects have amazing functionalities, they often miss out on reaching a wider audience due to lack of clear and user-friendly installation instructions. In addition, lack of efficient showcase of their use cases also contribute to the lower reach of these projects.
+```sh
+ezcode
+# opens vs code with disabled gpu
 
-While there are ReadME templates that can help address this, the process of manually filling out these templates can be time-consuming and tedious. That&#39;s where our project makeread.me comes in.
+ezcppinit
+# initializes cpp project
 
-Introducing makeread.me, an automated ReadMe Generator that can revolutionize how you create your project documentation. It is designed to:
+ezdownloadsorter
+# sorts download folder
 
-- Save your valuable time enhancing your focus on development,
-- Automate redundant tasks, and,
-- Implement DRY (Don&#39;t Repeat Yourself) principles to your documentation.
+ezgitpull
+# pulls current branch
 
-It&#39;s free, open-source, and highly customizable. Feel free to modify our templates to fit your needs. If you find that a particular component is missing, you are more than welcome to contribute and expand the project.
+ezgitpush
+# pushes to current branch
 
-We&#39;ve made it easy for you to contribute to the project by using Nunjucks and JSON templates for programmatic mapping. Enjoy the benefits of clear and concise project documentation with makeread.me!
+ezkwinlog
+# starts kwin's logger for debugging purposes
+
+ezreactcmpntinit
+# initializes react component directory
+
+ezreadmeinit
+# initializes readme template
+
+ezupdate
+# updates Linux system (supports dnf, zypper, and apt)
+
+ezgitsetup
+# sets up git
+
+ezshc
+# turns all scripts to binary
+
+ezzshsetup
+# sets up zsh and on my zsh
+```
 
 ### Built With
 
 This project was built with the following technologies:
 
-- [Next.js](https://nextjs.org/)
-- [React](https://react.dev/)
-- [Shadcn/ui](https://ui.shadcn.com/)
-- [React Hook Form](https://react-hook-form.com/)
-- [Typescript](https://www.typescriptlang.org/)
-- [Express](https://expressjs.com/)
+- <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" alt="Bash" />
+- <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" />
 
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Current scripts are used in an Linux enviroment using `zypper`, `dnf`, or `apt` package managers. Modification might be necessary for them to work in other systems.
 
-### Prerequisites
-
-This project requires Yarn to be installed in your system. If you don&#39;t have it installed, you can follow these steps:
-
-- Install Yarn globally using npm (Node Package Manager). Open your terminal and run:
-
-  ```sh
-  npm install -g yarn
-  ```
-
-  Please ensure that you have Node.js and npm installed before running Yarn.
-
-- Verify that Yarn has been installed on your machine by running the following command in your terminal:
-
-  ```sh
-  yarn --version
-  ```
-
-  If Yarn has been installed correctly, your terminal should display the version of Yarn installed on your machine.
-
-Now you are ready to use Yarn for managing and versioning your project dependencies!
 
 ### Installation
 
-Please follow the following steps for successful installation:
-
-1. **Clone the Repository:** Get started by cloning the repository to your local machine.
-
-  ```
-  https://github.com/user/repo
-  ```
-
-2. **Install Frontend Packages:** Navigate to the &quot;/frontend&quot; directory and install the required yarn packages by executing the following command in your terminal:
+1. **Clone the repository** 
 
   ```sh
-  yarn install
+  git clone --recurse-submodules https://github.com/venoblin/scripts
   ```
 
-3. **Install Backend Packages:** Similarly, navigate to the &quot;/backend&quot; directory and install the required yarn packages by executing the following command in your terminal:
+2. **Create settings file (for [ezdownloadsorter](https://github.com/venoblin/download-file-sorter))**
 
   ```sh
-  yarn install
+  cd scripts
+  touch settings.json
   ```
 
-4. **Set Up Environment:**
+1. **Modify `settings.json`** 
 
-  - In the &quot;/backend&quot; directory, copy the content of &quot;.env.example&quot; file and create a new file named &quot;.env&quot;. Adjust the environment variables according to your requirements or you can leave them as it is.
+  ```json
+  {
+    "downloads": "/path/to/Downloads",
+    "destinations": {
+      ".file-extension": "/path/to/destination",
+      ".file-extension": "/path/to/destination",
+      ".file-extension": "/path/to/destination"
+    }
+  }
+  ```
 
-  - Navigate to &quot;frontend/api/generated/readMeGenerator.ts&quot; and set the BASE parameter to your backend API route. For instance, if you are running backend on your local server at port 8080, you should set:
-
-    ```javascript
-    BASE: "http://localhost:8080/api";
-    ```
-
-5. **Run the Backend:** Navigate to &quot;/backend&quot; directory and type the following command in your terminal to run your backend server:
-
+4. **Install scripts** 
+  
   ```sh
-  yarn dev
+  ./install.sh
   ```
-
-6. **Run the Frontend:** Finally, navigate to &quot;/frontend&quot; directory and type the following command in your terminal to run your frontend server:
-
-  ```sh
-  yarn dev
-  ```
-
-  Now, your application should be successfully up and running!
-
-## Roadmap
-
-The roadmap includes both completed and future goals. Here&#39;s what we have accomplished and looking forward to:
-
-- [x] Add backend swagger generation
-- [x] Add backend
-- [x] Set up CI/CD on railway
-- [x] Allow dynamic input field generation based off a JSON file
-  - [x] Textarea
-  - [x] Input
-  - [x] Objects
-  - [x] Array
-- [x] Allow users to set the order of components or delete them
-- [x] Allow templating via Nunjucks
-- [x] Add Plausible Analytics
-- [x] Add old readme generator template
-- [ ] Add more templates
-- [ ] Move rendering logic to the backend with debounce
-- [x] Replace useEffect with react query
-- [ ] Add caching
-- [ ] Write up README best practice articles
-- [ ] Avoid key collisions when using non-unique-names as Ids in templates
-
-We continue our commitment to improving and expanding the capabilities of makeread.me to provide an efficient and seamless readme generation experience to our users.
-
-See the [open issues](https://github.com/user/repo/issues) for a full list of proposed features (and known issues).
-
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag &quot;enhancement&quot;.
-Don&#39;t forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m &#39;Add some AmazingFeature&#39;`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## License
-
-Distributed under the Mozilla Public License 2.0 License. See [Mozilla Public License 2.0 License](https://github.com/user/repo/LICENSE.md) for more information.
-
-## Contact
-
-If you have any questions or suggestions, feel free to reach out to us:
-
-- Raise an issue on the repository: [GitHub Repository](https://github.com/user/repo)
-- Connect with us on social media: [@user](https://socialmedia.com/user)
-
-## Acknowledgments
-
-A special thanks to the following for their contributions, support and inspiration:
-
-- [makeread.me](https://github.com/ShaanCoding/makeread.me)
-- [Othneil Drew](https://github.com/othneildrew/Best-README-Template)
-
-## Notice
-
-This ReadMe was generated using [makeread.me](https://www.makeread.me/) 🚀
