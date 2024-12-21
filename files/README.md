@@ -56,12 +56,8 @@ We&#39;ve made it easy for you to contribute to the project by using Nunjucks an
 
 This project was built with the following technologies:
 
-- [Next.js](https://nextjs.org/)
-- [React](https://react.dev/)
-- [Shadcn/ui](https://ui.shadcn.com/)
-- [React Hook Form](https://react-hook-form.com/)
-- [Typescript](https://www.typescriptlang.org/)
-- [Express](https://expressjs.com/)
+- <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" alt="Bash" />
+- <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" />
 
 ## Getting Started
 
