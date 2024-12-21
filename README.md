@@ -1,7 +1,7 @@
 <br/>
 <div align="center">
 <a href="https://github.com/venoblin/scripts">
-<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><defs><linearGradient id="vscodeIconsFileTypePowershell0" x1="23.325" x2="7.26" y1="-118.543" y2="-104.193" gradientTransform="matrix(1 0 0 -1 0 -96)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#5391fe"/><stop offset="1" stop-color="#3e6dbf"/></linearGradient><linearGradient id="vscodeIconsFileTypePowershell1" x1="7.1" x2="23.001" y1="-104.002" y2="-118.292" href="#vscodeIconsFileTypePowershell0"/></defs><path fill="url(#vscodeIconsFileTypePowershell0)" fill-rule="evenodd" d="M3.174 26.589a1.15 1.15 0 0 1-.928-.423a1.23 1.23 0 0 1-.21-1.052L6.233 6.78a1.8 1.8 0 0 1 1.681-1.37h20.912a1.16 1.16 0 0 1 .928.423a1.24 1.24 0 0 1 .21 1.052l-4.2 18.335a1.8 1.8 0 0 1-1.681 1.37H3.174Z"/><path fill="url(#vscodeIconsFileTypePowershell1)" fill-rule="evenodd" d="M7.914 5.646h20.912a.913.913 0 0 1 .908 1.187l-4.2 18.334a1.575 1.575 0 0 1-1.451 1.187H3.174a.913.913 0 0 1-.908-1.187l4.2-18.334a1.57 1.57 0 0 1 1.448-1.187"/><path fill="#2c5591" fill-rule="evenodd" d="M16.04 21.544h5.086a1.118 1.118 0 0 1 0 2.234H16.04a1.118 1.118 0 0 1 0-2.234m3.299-4.966a1.76 1.76 0 0 1-.591.6l-9.439 6.775a1.224 1.224 0 0 1-1.438-1.977l8.512-6.164v-.126L11.035 10a1.224 1.224 0 0 1 1.782-1.672l6.418 6.827a1.166 1.166 0 0 1 .104 1.423"/><path fill="#fff" fill-rule="evenodd" d="M19.1 16.342a1.75 1.75 0 0 1-.59.6l-9.436 6.776a1.225 1.225 0 0 1-1.439-1.977l8.513-6.164v-.127L10.8 9.761a1.224 1.224 0 0 1 1.783-1.672L19 14.916a1.16 1.16 0 0 1 .1 1.426m-3.2 5.07h5.086a1.059 1.059 0 1 1 0 2.118H15.9a1.059 1.059 0 1 1 0-2.118"/></svg>
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJ0AAACACAYAAAARbmuTAAAEFklEQVR4Xu3cP0gkVwDH8d9BCgsLCy0EC4VYBLwqIBYWWyhoKShYWNjlGkEhKYSEPUlxQgoVAloETKMWNhaCgkIsBFOkEBT8G7S0sNjCwsIivLkcXMh6Om/f/fB2vh8QYcGZ2ceX2Zk3b32l976W9E5SSVLzv68BqVQk/SXpJ0l/vpLUKOlIUnuqPQCPuJf0TYjuO0lLDBNMfgjR/SjpZ9MOgd9DdGVJbxkLmMwTHdyIDnZEBzuigx3RwY7oYEd0sIuPrq2tTaVSSZVKRZubm/YjxxcrLrqenh7t7OyosTE8tpW2t7c1MjKiu7u7L3YkYBMX3cHBQRbex/b39zU4OEh4eEpcdFdXV2pv//+iFMLDM8RFNzc3p8nJyarbJzw8IS66hoaG7Jqut7eX8JBXXHRB+Hgtl8saHx+vutOVlRXNzMzo4uIi70GhvsVH95zwVldXs/DOz8/rexiRR23RER4i1B7dc8JbW1vLznhnZ2cRx4g6kya6IEwUb21tPXpzsbe3p/7+fj08PNTZGCKndNE9J7zZ2VlNT0/nPEbUmbTRPfVRe3Jyou7ubp5aFFv66IKBgYHso7aa1tZW3dzcFHvYiy19dGHCOAT3YTHAxy4vL9XZ2VnsIUfa6MJEcZgwrvZc9vr6WhMTEyyDQrroPnWGC6ampjQ/P8+QI010nzrDheu3MEe3tMR/rkCm9ugIDjnVFh3BIUJ8dCmv4cKNR7Wbj7zC9zUODw/z/hm84qLr6urKlqxXmxbJc9MQQltcXMzm9VI5Pj7Oblp2d3dTbRJpxUUXFnD29fVVPZQ8d6nr6+saHh5O+5Yk3d7eqqWlJfl2kURcdI99RyJPcMHR0VF21vwcQnQhPrw4cdGFpUqjo6P/eTd5gwuWl5cfXXlcizAR3dHRUcsm8PnERdfc3Jw9eRgbG8su3BcWFrSxsZH7MJuamrKAU17TnZ6eamhoKPuNFykuutRCfOGnVvf39ywmePleRnQoFKKDHdHBjuhgR3SwIzrYER3siA52RAc7ooMd0cGO6GBHdLAjOtgRHeyIDnZEBzuigx3RwY7oYEd0sCM62BEd7IgOdkQHuyy6t5LK9l2jqIgOdkQHO6KDHdHBjuhgR3SwIzrYER3siA52RAc7ooMd0cGO6GBHdLAjOtgRHeyIDnZEBzuigx3RwY7oYEd0sCM62BEd7IgOdkQHO6KDHdHBjuhgR3SwIzrYER3siA52RAc7ooMd0cGO6GBHdLAjOtgRHeyIDnZEBzuigx3RwY7oYEd0sCM62BEd7IgOdkQHO6KDHdHBjuhgR3SwIzrYER3siA52RAc7ooNdFt33kn6x7xpF9VuIrk/STlFHAHYTIbrgD0kl++5RNNeSXn+I7itJbyR9W7RRgM3fkn6VVPkH4PXI3o5kwlQAAAAASUVORK5CYII=" alt="Termnial logo" />
 </a>
 
 <h3 align="center">Scripts</h3>
@@ -12,9 +12,8 @@ Scripts to make your life easier!
 </p>
 </div>
 
-## Table of Contents
+Table of Contents
 
-- [Table of Contents](#table-of-contents)
 - [About The Project](#about-the-project)
   - [Scripts](#scripts)
   - [Built With](#built-with)
