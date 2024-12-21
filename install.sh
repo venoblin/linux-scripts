@@ -1,12 +1,14 @@
 #!/bin/bash
 
+git submodule update --remote
+
 if [ -d "bin/" ]; then
   rm -rf bin/
 fi
 
 #checking if shc is installed and giving user choice to install it
-if ! command -v shc &> /dev/null; then
-  echo "Shc is necessary and is not installed."
+if ! command -v shc &> /dev/null || ! command -v pyinstaller &> /dev/null; then
+  echo "Shc and Pyinstaller are necessary and is not installed."
   echo "Do you wish to install it? [Y, n]"
   read -r
 
@@ -27,6 +29,8 @@ if ! command -v shc &> /dev/null; then
       echo "Error: Unsupported package manager"
       exit 1
     fi
+
+    pip install pyinstaller
   elif [[ "$REPLY" =~ ^[Nn]$ ]]; then
     echo "Exiting..."
     exit 0
@@ -46,6 +50,8 @@ zshrc_file="$HOME/.zshrc"
 if ! grep -q "export PATH.*$bin_location" $zshrc_file; then
   echo 'export PATH="'"$bin_location"':$PATH"' | cat - "$zshrc_file" > temp && mv temp "$zshrc_file"
 fi
+
+ln -s $HOME/dev/scripts/src/download-file-sorter/app.py bin/ezdownloadsorter
 
 ./standalone/ezshc.sh
 

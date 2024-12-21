@@ -1,1 +1,9 @@
 bin/
+venv/
+build/
+dist/
+
+__pycache__*
+.env
+*.spec
+settings.json
