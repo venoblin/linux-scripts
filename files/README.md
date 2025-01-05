@@ -65,7 +65,7 @@ This project was built with the following technologies:
 - <img src="https://img.shields.io/badge/Express.js-%23404d59.svg?logo=express&logoColor=%2361DAFB" alt="Express.js" />
 - <img src="https://img.shields.io/badge/Flask-000?logo=flask&logoColor=fff" alt="Flask" />
 - <img src="https://img.shields.io/badge/Sass-C69?logo=sass&logoColor=fff" alt="SASS" />
-- <img src="https://img.shields.io/badge/Postgres-%23316192.svg?logo=postgresql&logoColor=white" alt="Postgres" />
+- <img src="https://img.shields.io/badge/Postgres-%23316192.svg?logo=postgresql&logoColor=white" alt="PostgreSQL" />
 - <img src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?logo=mongodb&logoColor=white" alt="MongoDB" />
 
 ## Getting Started
