@@ -54,9 +54,12 @@ We&#39;ve made it easy for you to contribute to the project by using Nunjucks an
 ### Built With
 
 This project was built with the following technologies:
-- ![Bash](https://img.shields.io/badge/Bash-4EAA25?logo=gnubash&logoColor=fff)
-- ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)
-- ![C++](https://img.shields.io/badge/C++-%2300599C.svg?logo=c%2B%2B&logoColor=white)
+- <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" alt="Bash" />
+- <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" />
+- <img src="https://img.shields.io/badge/-c++-00599C?logo=cplusplus&logoColor=white&style=for-the-badge" alt="C++" />
+- <img src="https://shields.io/badge/react-black?logo=react&style=for-the-badge" alt="React" />
+- <img src="https://shields.io/badge/JavaScript-F7DF1E?logo=JavaScript&logoColor=000&style=flat-square" alt="JavaScript" />
+
 
 ## Getting Started
 
