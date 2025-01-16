@@ -73,7 +73,7 @@ This project was built with the following technologies:
 
 ## Getting Started
 
-Current scripts are used in an Linux enviroment using `zypper`, `dnf`, or `apt` package managers. Modification might be necessary for them to work in other systems.
+Current scripts are used in a Linux enviroment using `zypper`, `dnf`, or `apt` package managers. Modification might be necessary for them to work in other systems.
 
 
 ### Installation
