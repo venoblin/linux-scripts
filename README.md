@@ -25,41 +25,42 @@ Table of Contents
 ### Scripts
 
 ```sh
-ezcode
 # opens vs code with disabled gpu
+ezcode
 
-ezcppinit
 # initializes cpp project at current working directory
+ezcppinit
 
-ezdownloadsorter
 # sorts download folder
+ezdownloadsorter
 
+# pulls from current Git branch
 ezgitpull
-# pulls current branch
 
+# pushes to current Git branch
 ezgitpush "commit message"
-# pushes to current branch
 
-ezkwinlog
 # starts kwin's logger for debugging purposes
+ezkwinlog
 
-ezreactcmpntinit ./project/components/NewComponentName
-# initializes react component with SCSS file
+# initializes directory containing JavaScript(jsx) or TypeScript(tsx) React component with a corresponding SCSS file
+# if no type is specified as the second argument then JavaScript(jsx) will be used
+ezreactcmpntinit ./project/components/NewComponentName tsx
 
-ezreadmeinit
 # initializes readme template at current working directory
+ezreadmeinit
 
-ezupdate
 # updates Linux system (supports dnf, zypper, and apt)
+ezupdate
 
-ezgitsetup
 # sets up git
+ezgitsetup
 
+# sets up zsh and Oh My Zsh
 ezzshsetup
-# sets up zsh and on my zsh
 
+# turns all scripts to binary files
 ezshc
-# turns all above scripts to binary
 ```
 
 ### Built With
