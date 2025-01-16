@@ -29,7 +29,7 @@ ezcode
 # opens vs code with disabled gpu
 
 ezcppinit
-# initializes cpp project
+# initializes cpp project at current working directory
 
 ezdownloadsorter
 # sorts download folder
@@ -37,17 +37,17 @@ ezdownloadsorter
 ezgitpull
 # pulls current branch
 
-ezgitpush
+ezgitpush "commit message"
 # pushes to current branch
 
 ezkwinlog
 # starts kwin's logger for debugging purposes
 
-ezreactcmpntinit
-# initializes react component directory
+ezreactcmpntinit ./project/components/NewComponentName
+# initializes react component with SCSS file
 
 ezreadmeinit
-# initializes readme template
+# initializes readme template at current working directory
 
 ezupdate
 # updates Linux system (supports dnf, zypper, and apt)
@@ -55,11 +55,11 @@ ezupdate
 ezgitsetup
 # sets up git
 
-ezshc
-# turns all scripts to binary
-
 ezzshsetup
 # sets up zsh and on my zsh
+
+ezshc
+# turns all above scripts to binary
 ```
 
 ### Built With
