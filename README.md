@@ -43,8 +43,9 @@ ezgitpush "commit message"
 # starts kwin's logger for debugging purposes
 ezkwinlog
 
-# initializes directory containing JavaScript(jsx) or TypeScript(tsx) React component with a corresponding SCSS file
-# if no type is specified as the second argument then JavaScript(jsx) will be used
+# creates directory containing JavaScript(jsx) or TypeScript(tsx) React component
+# with a corresponding SCSS file, if no type is specified as the second argument
+# then JavaScript(jsx) will be used
 ezreactcmpntinit ./project/components/NewComponentName tsx
 
 # initializes readme template at current working directory
