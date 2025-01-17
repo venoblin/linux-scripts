@@ -79,7 +79,7 @@ Current scripts are used in a Linux enviroment using `zypper`, `dnf`, or `apt` p
 
 ## Usage
 ### `ezcode` 
-Opens vs code with disabled gpu
+Opens VSCode with disabled gpu
 ```bash
 ezcode
 ```
