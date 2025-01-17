@@ -125,7 +125,7 @@ ezreactcmpntinit ./project/components/NewComponentName tsx
 ```
 
 ### `ezreadmeinit` 
-Initializes readme template at current working directory
+Initializes README template at current working directory
 ```bash
 ezreadmeinit
 ```
