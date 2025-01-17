@@ -21,7 +21,7 @@ Table of Contents
 - [Usage](#usage)
   - [`ezcode`](#ezcode)
   - [`ezcppinit`](#ezcppinit)
-  - [`ezdownloadsorter`](#ezdownloadsorter)
+  - [`ezdownloadsorter` (Submodule of download-file-sorter)](#ezdownloadsorter-submodule-of-download-file-sorter)
   - [`ezgitpull`](#ezgitpull)
   - [`ezgitpush`](#ezgitpush)
   - [`ezkwinlog`](#ezkwinlog)
@@ -90,7 +90,7 @@ ezcode
 ezcppinit
 ```
 
-### `ezdownloadsorter` 
+### `ezdownloadsorter` (Submodule of [download-file-sorter](https://github.com/venoblin/download-file-sorter))
 - Sorts download folder
 ```bash
 ezdownloadsorter
