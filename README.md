@@ -15,69 +15,36 @@ Scripts to make your life easier!
 Table of Contents
 
 - [About The Project](#about-the-project)
-  - [Scripts](#scripts)
   - [Built With](#built-with)
 - [Getting Started](#getting-started)
   - [Installation](#installation)
+- [Usage](#usage)
+  - [`ezcode`](#ezcode)
+  - [`ezcppinit`](#ezcppinit)
+  - [`ezdownloadsorter`](#ezdownloadsorter)
+  - [`ezgitpull`](#ezgitpull)
+  - [`ezgitpush`](#ezgitpush)
+  - [`ezkwinlog`](#ezkwinlog)
+  - [`ezreactcmpntinit`](#ezreactcmpntinit)
+  - [`ezreadmeinit`](#ezreadmeinit)
+  - [`ezupdate`](#ezupdate)
+  - [`ezgitsetup`](#ezgitsetup)
+  - [`ezzshsetup`](#ezzshsetup)
+  - [`ezshc`](#ezshc)
 
 ## About The Project
-
-### Scripts
-
-```sh
-# opens vs code with disabled gpu
-ezcode
-
-# initializes cpp project at current working directory
-ezcppinit
-
-# sorts download folder
-ezdownloadsorter
-
-# pulls from current Git branch
-ezgitpull
-
-# pushes to current Git branch
-ezgitpush "commit message"
-
-# starts kwin's logger for debugging purposes
-ezkwinlog
-
-# creates directory containing JavaScript(jsx) or TypeScript(tsx) React component
-# with a corresponding SCSS file, if no type is specified as the second argument
-# then JavaScript(jsx) will be used
-ezreactcmpntinit ./project/components/NewComponentName tsx
-
-# initializes readme template at current working directory
-ezreadmeinit
-
-# updates Linux system (supports dnf, zypper, and apt)
-ezupdate
-
-# sets up git
-ezgitsetup
-
-# sets up zsh and Oh My Zsh
-ezzshsetup
-
-# turns all scripts to binary files
-ezshc
-```
+This project provides a collection of utility scripts designed to streamline common tasks in a Linux environment. These scripts automate tasks such as system updates, file management, and Git interactions, improving workflow efficiency and reducing manual effort.
 
 ### Built With
-
 This project was built with the following technologies:
 
 - <img src="https://img.shields.io/badge/Bash-4EAA25?logo=gnubash&logoColor=fff" alt="Bash" />
 - <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff" alt="Python" />
 
 ## Getting Started
-
 Current scripts are used in a Linux enviroment using `zypper`, `dnf`, or `apt` package managers. Modification might be necessary for them to work in other systems.
 
-
 ### Installation
-
 1. **Clone the repository** 
 
   ```sh
@@ -109,3 +76,80 @@ Current scripts are used in a Linux enviroment using `zypper`, `dnf`, or `apt` p
   ```sh
   ./install.sh
   ```
+
+## Usage
+### `ezcode` 
+Opens vs code with disabled gpu
+```bash
+ezcode
+```
+
+### `ezcppinit` 
+Initializes cpp project at current working directory
+```bash
+ezcppinit
+```
+
+### `ezdownloadsorter` 
+Sorts download folder
+```bash
+ezdownloadsorter
+```
+
+### `ezgitpull` 
+Pulls from current Git branch
+```bash
+ezgitpull
+```
+
+### `ezgitpush` 
+Pushes to current Git branch
+```bash
+ezgitpush "commit message"
+```
+
+### `ezkwinlog` 
+Starts kwin's logger for debugging purposes
+```bash
+ezkwinlog
+```
+
+### `ezreactcmpntinit`
+- Creates directory containing JavaScript(jsx) or TypeScript(tsx) React component 
+with a corresponding SCSS file 
+- If no type is specified as the second argument 
+then JavaScript(jsx) will be used
+```bash
+# ezreactcmpntinit <path/componentname> <type(jsx or tsx)>
+ezreactcmpntinit ./project/components/NewComponentName tsx
+```
+
+### `ezreadmeinit` 
+Initializes readme template at current working directory
+```bash
+ezreadmeinit
+```
+
+### `ezupdate` 
+Updates Linux system (supports dnf, zypper, and apt)
+```bash
+ezupdate
+```
+
+### `ezgitsetup` 
+Sets up git
+```bash
+ezgitsetup
+```
+
+### `ezzshsetup` 
+Sets up zsh and Oh My Zsh
+```bash
+ezzshsetup
+```
+
+### `ezshc` 
+Turns all scripts to binary files
+```bash
+ezshc
+```

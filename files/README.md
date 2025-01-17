@@ -26,6 +26,7 @@ Table of Contents
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
+- [Usage](#usage)
 - [Roadmap](#roadmap)
 - [Contributing](#contributing)
 - [License](#license)
@@ -34,7 +35,6 @@ Table of Contents
 - [Notice](#notice)
 
 ## About The Project
-
 ![Screenshot](images/demo.gif)
 
 One of the challenges with building and contributing to open source software is that while many projects have amazing functionalities, they often miss out on reaching a wider audience due to lack of clear and user-friendly installation instructions. In addition, lack of efficient showcase of their use cases also contribute to the lower reach of these projects.
@@ -52,7 +52,6 @@ It&#39;s free, open-source, and highly customizable. Feel free to modify our tem
 We&#39;ve made it easy for you to contribute to the project by using Nunjucks and JSON templates for programmatic mapping. Enjoy the benefits of clear and concise project documentation with makeread.me!
 
 ### Built With
-
 This project was built with the following technologies:
 - <img src="https://img.shields.io/badge/Bash-4EAA25?logo=gnubash&logoColor=fff" alt="Bash" />
 - <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff" alt="Python" />
@@ -69,12 +68,10 @@ This project was built with the following technologies:
 - <img src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?logo=mongodb&logoColor=white" alt="MongoDB" />
 
 ## Getting Started
-
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-
 This project requires Yarn to be installed in your system. If you don&#39;t have it installed, you can follow these steps:
 
 - Install Yarn globally using npm (Node Package Manager). Open your terminal and run:
@@ -96,7 +93,6 @@ This project requires Yarn to be installed in your system. If you don&#39;t have
 Now you are ready to use Yarn for managing and versioning your project dependencies!
 
 ### Installation
-
 1. **Clone the repository** 
 
   ```sh
@@ -129,8 +125,10 @@ Now you are ready to use Yarn for managing and versioning your project dependenc
   ./install.sh
   ```
 
-## Roadmap
+## Usage
+Put usage examples here
 
+## Roadmap
 The roadmap includes both completed and future goals. Here&#39;s what we have accomplished and looking forward to:
 
 - [x] Add backend swagger generation
@@ -157,7 +155,6 @@ We continue our commitment to improving and expanding the capabilities of makere
 See the [open issues](https://github.com/user/repo/issues) for a full list of proposed features (and known issues).
 
 ## Contributing
-
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag &quot;enhancement&quot;.
@@ -170,23 +167,19 @@ Don&#39;t forget to give the project a star! Thanks again!
 5. Open a Pull Request
 
 ## License
-
 Distributed under the Mozilla Public License 2.0 License. See [Mozilla Public License 2.0 License](https://github.com/user/repo/LICENSE.md) for more information.
 
 ## Contact
-
 If you have any questions or suggestions, feel free to reach out to us:
 
 - Raise an issue on the repository: [GitHub Repository](https://github.com/user/repo)
 - Connect with us on social media: [@user](https://socialmedia.com/user)
 
 ## Acknowledgments
-
 A special thanks to the following for their contributions, support and inspiration:
 
 - [makeread.me](https://github.com/ShaanCoding/makeread.me)
 - [Othneil Drew](https://github.com/othneildrew/Best-README-Template)
 
 ## Notice
-
 This ReadMe was generated using [makeread.me](https://www.makeread.me/) 🚀
