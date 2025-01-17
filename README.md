@@ -79,37 +79,37 @@ Current scripts are used in a Linux enviroment using `zypper`, `dnf`, or `apt` p
 
 ## Usage
 ### `ezcode` 
-Opens VSCode with disabled gpu
+- Opens VSCode with disabled gpu
 ```bash
 ezcode
 ```
 
 ### `ezcppinit` 
-Initializes cpp project at current working directory
+- Initializes cpp project at current working directory
 ```bash
 ezcppinit
 ```
 
 ### `ezdownloadsorter` 
-Sorts download folder
+- Sorts download folder
 ```bash
 ezdownloadsorter
 ```
 
 ### `ezgitpull` 
-Pulls from current Git branch
+- Pulls from current Git branch
 ```bash
 ezgitpull
 ```
 
 ### `ezgitpush` 
-Pushes to current Git branch
+- Pushes to current Git branch
 ```bash
 ezgitpush "commit message"
 ```
 
 ### `ezkwinlog` 
-Starts kwin's logger for debugging purposes
+- Starts kwin's logger for debugging purposes
 ```bash
 ezkwinlog
 ```
@@ -125,31 +125,31 @@ ezreactcmpntinit ./project/components/NewComponentName tsx
 ```
 
 ### `ezreadmeinit` 
-Initializes README template at current working directory
+- Initializes README template at current working directory
 ```bash
 ezreadmeinit
 ```
 
 ### `ezupdate` 
-Updates Linux system (supports dnf, zypper, and apt)
+- Updates Linux system (supports dnf, zypper, and apt)
 ```bash
 ezupdate
 ```
 
 ### `ezgitsetup` 
-Sets up git
+- Sets up git
 ```bash
 ezgitsetup
 ```
 
 ### `ezzshsetup` 
-Sets up zsh and Oh My Zsh
+- Sets up zsh and Oh My Zsh
 ```bash
 ezzshsetup
 ```
 
 ### `ezshc` 
-Turns all scripts to binary files
+- Turns all scripts to binary files
 ```bash
 ezshc
 ```
