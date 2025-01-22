@@ -94,20 +94,17 @@ Now you are ready to use Yarn for managing and versioning your project dependenc
 
 ### Installation
 1. **Clone the repository** 
-
   ```sh
   git clone --recurse-submodules https://github.com/venoblin/scripts
   ```
 
 2. **Create settings file (for [ezdownloadsorter](https://github.com/venoblin/download-file-sorter))**
-
   ```sh
   cd scripts
   touch settings.json
   ```
 
-1. **Modify `settings.json`** 
-
+3. **Modify `settings.json`** 
   ```json
   {
     "downloads": "/path/to/Downloads",
@@ -120,7 +117,6 @@ Now you are ready to use Yarn for managing and versioning your project dependenc
   ```
 
 4. **Install scripts** 
-  
   ```sh
   ./install.sh
   ```
