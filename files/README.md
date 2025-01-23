@@ -75,18 +75,15 @@ To get a local copy up and running follow these simple example steps.
 This project requires Yarn to be installed in your system. If you don&#39;t have it installed, you can follow these steps:
 
 - Install Yarn globally using npm (Node Package Manager). Open your terminal and run:
-
-  ```sh
-  npm install -g yarn
-  ```
-
-  Please ensure that you have Node.js and npm installed before running Yarn.
-
+    ```sh
+    npm install -g yarn
+    ```
+  Make sure NPM is installed.
+  
 - Verify that Yarn has been installed on your machine by running the following command in your terminal:
-
-  ```sh
-  yarn --version
-  ```
+    ```sh
+    yarn --version
+    ```
 
   If Yarn has been installed correctly, your terminal should display the version of Yarn installed on your machine.
 
@@ -94,32 +91,32 @@ Now you are ready to use Yarn for managing and versioning your project dependenc
 
 ### Installation
 1. **Clone the repository** 
-  ```sh
-  git clone --recurse-submodules https://github.com/venoblin/scripts
-  ```
+    ```sh
+    git clone --recurse-submodules https://github.com/venoblin/scripts
+    ```
 
 2. **Create settings file (for [ezdownloadsorter](https://github.com/venoblin/download-file-sorter))**
-  ```sh
-  cd scripts
-  touch settings.json
-  ```
+    ```sh
+    cd scripts
+    touch settings.json
+    ```
 
 3. **Modify `settings.json`** 
-  ```json
-  {
-    "downloads": "/path/to/Downloads",
-    "destinations": {
-      ".file-extension": "/path/to/destination",
-      ".file-extension": "/path/to/destination",
-      ".file-extension": "/path/to/destination"
+    ```json
+    {
+      "downloads": "/path/to/Downloads",
+      "destinations": {
+        ".file-extension": "/path/to/destination",
+        ".file-extension": "/path/to/destination",
+        ".file-extension": "/path/to/destination"
+      }
     }
-  }
-  ```
+    ```
 
 4. **Install scripts** 
-  ```sh
-  ./install.sh
-  ```
+    ```sh
+    ./install.sh
+    ```
 
 ## Usage
 Put usage examples here
