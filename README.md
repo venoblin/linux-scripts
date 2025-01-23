@@ -91,7 +91,7 @@ ezcppinit
 ```
 
 ### `ezdownloadsorter`
-- Submodule of [download-file-sorter](https://github.com/venoblin/download-file-sorter)
+- [download-file-sorter](https://github.com/venoblin/download-file-sorter) submodule
 - Sorts download folder
 ```bash
 ezdownloadsorter
