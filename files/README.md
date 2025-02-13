@@ -66,6 +66,7 @@ This project was built with the following technologies:
 - <img src="https://img.shields.io/badge/Sass-C69?logo=sass&logoColor=fff" alt="SASS" />
 - <img src="https://img.shields.io/badge/Postgres-%23316192.svg?logo=postgresql&logoColor=white" alt="PostgreSQL" />
 - <img src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?logo=mongodb&logoColor=white" alt="MongoDB" />
+- <img src="https://img.shields.io/badge/Godot-%23FFFFFF.svg?logo=godot-engine" alt="Godot Engine" />
 
 ## Getting Started
 This is an example of how you may give instructions on setting up your project locally.
