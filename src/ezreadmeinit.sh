@@ -2,8 +2,8 @@
 #initializes readme template at specified path
 
 scripts_location=$(dirname $(dirname $(command -v ezreadmeinit)))
-readme_file="$scripts_location/files/README.md"
-project_logo="$scripts_location/files/project-logo.png"
+readme_file="$scripts_location/files/project-template/README.md"
+project_images="$scripts_location/files/project-template/.project-images"
 
 if [ -f "README.md" ]; then
   echo "Error: A README.md already in directory!" >&2
@@ -11,5 +11,4 @@ if [ -f "README.md" ]; then
 fi 
 
 cp -r "$readme_file" $(pwd)
-mkdir $(pwd)/.project-images
-cp -r "$project_logo" $(pwd)/.project-images
+cp -r "$project_images" $(pwd)
