@@ -1,3 +1,6 @@
 [submodule "src/download-file-sorter"]
 	path = src/download-file-sorter
 	url = git@github.com:venoblin/download-file-sorter.git
+[submodule "files/project-template"]
+	path = files/project-template
+	url = git@github.com:venoblin/project-template.git
