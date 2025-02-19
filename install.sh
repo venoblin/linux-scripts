@@ -8,7 +8,7 @@ fi
 
 #checking if shc is installed and giving user choice to install it
 if ! command -v shc &> /dev/null || ! command -v pyinstaller &> /dev/null; then
-  echo "Shc and Pyinstaller are necessary and is not installed."
+  echo "Shc is necessary and is not installed."
   echo "Do you wish to install it? [Y, n]"
   read -r
 
@@ -30,7 +30,6 @@ if ! command -v shc &> /dev/null || ! command -v pyinstaller &> /dev/null; then
       exit 1
     fi
 
-    pip3 install pyinstaller --user
   elif [[ "$REPLY" =~ ^[Nn]$ ]]; then
     echo "Exiting..."
     exit 0
