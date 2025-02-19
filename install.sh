@@ -30,7 +30,7 @@ if ! command -v shc &> /dev/null || ! command -v pyinstaller &> /dev/null; then
       exit 1
     fi
 
-    pip install pyinstaller
+    pip3 install pyinstaller --user
   elif [[ "$REPLY" =~ ^[Nn]$ ]]; then
     echo "Exiting..."
     exit 0
