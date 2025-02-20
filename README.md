@@ -46,7 +46,7 @@ Current scripts are used in a Linux enviroment using `zypper`, `dnf`, or `apt` p
 ### Installation
 1. **Clone the repository** 
     ```sh
-    git clone --recurse-submodules https://github.com/venoblin/scripts
+    git clone --recurse-submodules https://github.com/venoblin/linux-scripts
     ```
 
 2. **Create `settings.json` file in project root directory (for [ezdownloadsorter](https://github.com/venoblin/download-file-sorter))**
