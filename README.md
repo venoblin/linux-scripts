@@ -4,7 +4,7 @@
 <img src=".project-images/project-logo.png" alt="Termnial logo" height="128px" />
 </a>
 
-<h3 align="center">Scripts</h3>
+<h3 align="center">Linux Scripts</h3>
 <p align="center">
 Scripts to make your life easier!
 <br/>
@@ -13,7 +13,6 @@ Scripts to make your life easier!
 </div>
 
 Table of Contents
-
 - [About The Project](#about-the-project)
   - [Built With](#built-with)
 - [Getting Started](#getting-started)
