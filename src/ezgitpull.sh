@@ -4,3 +4,4 @@
 current_branch=$(git symbolic-ref --short HEAD)
 
 git pull origin $current_branch
+git submodule update --init --recursive --remote
