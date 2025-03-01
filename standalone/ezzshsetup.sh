@@ -17,3 +17,5 @@ fi
 chsh -s /bin/zsh
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+cp ../files/venoblin.zsh-theme ~/.oh-my-zsh/themes
