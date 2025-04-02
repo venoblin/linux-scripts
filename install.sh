@@ -7,7 +7,7 @@ if [ -d "bin/" ]; then
 fi
 
 #checking if shc is installed and giving user choice to install it
-if ! command -v shc &> /dev/null || ! command -v pyinstaller &> /dev/null; then
+if ! command -v shc &>/dev/null; then
   echo "Shc is necessary and is not installed."
   echo "Do you wish to install it? [Y, n]"
   read -r
