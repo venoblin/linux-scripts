@@ -1,7 +1,7 @@
 #!/bin/bash
 #sets up zsh and on my zsh
 
-if command -v zsh &> /dev/null; then
+if which zsh &>/dev/null; then
   if which zypper &>/dev/null; then
     sudo zypper install zsh  
   elif which dnf &>/dev/null; then
