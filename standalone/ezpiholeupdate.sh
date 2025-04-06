@@ -7,11 +7,12 @@ sudo apt upgrade -y
 sudo pihole -g
 sudo pihole up
 
-if [ ! -d "$HOME/dev/linux-scripts/logs" ]; then
-  mkdir $HOME/dev/linux-scripts/logs
-fi
-
+path="/home/jvhmx/dev/linux-scripts"
 timestamp=$(date "+%Y-%m-%d_%H:%M:%S")
 
-touch $HOME/dev/linux-scripts/logs/pi-hole-update-$timestamp.txt
-echo "Pi updated on $timestamp" > $HOME/dev/linux-scripts/logs/pi-hole-update-$timestamp.txt
+if [ ! -d "$path/dev/linux-scripts/logs" ]; then
+  mkdir $path/logs
+fi
+
+touch $path/logs/pi-hole-update-$timestamp.txt
+echo "Pi updated on $timestamp" > $path/logs/pi-hole-update-$timestamp.txt
