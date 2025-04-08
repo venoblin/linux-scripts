@@ -5,6 +5,7 @@ if which zypper &>/dev/null; then
   sudo zypper ref
   sudo zypper update -y  
 elif which dnf &>/dev/null; then
+  sudo dnf upgrade --refresh
   sudo dnf update -y
 elif which apt &>/dev/null; then
   sudo apt update
