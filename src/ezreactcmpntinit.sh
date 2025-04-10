@@ -3,19 +3,19 @@
 
 type="jsx"
 
-if [[ ! "$1" ]]; then
-  echo "Error: Path needed!" >&2
+if [[ ! "$#" -eq 2 ]]; then
+  echo "Error: Component name and path needed!" >&2
   exit 1
 fi
 
-if [[ "$2" == "-j" ]]; then
+if [[ "$3" == "-j" ]]; then
   type="jsx"
-elif [[ "$2" == "-t" ]]; then
+elif [[ "$3" == "-t" ]]; then
   type="tsx"
 fi
 
-mkdir $(pwd)/"$1"
-touch $(pwd)/"$1"."$type"
+mkdir "$2"/"$1"
+touch "$2"/"$1"."$type"
 echo "import './"$1".css'
 
 const "$1" = () => {
@@ -26,8 +26,6 @@ const "$1" = () => {
   )
 }
 
-export default "$1"" > $(pwd)/$1."$type"
-touch $(pwd)/"$1".scss
+export default "$1"" > "$2"/$1."$type"
 
-mv $(pwd)/"$1".jsx $(pwd)/"$1"
-mv $(pwd)/"$1".scss $(pwd)/"$1"
+touch "$2"/"$1".scss
