@@ -29,3 +29,6 @@ const "$1" = () => {
 export default "$1"" > "$2"/$1."$type"
 
 touch "$2"/"$1".scss
+
+mv "$2"/"$1".jsx "$2"/"$1"
+mv "$2"/"$1".scss "$2"/"$1"
