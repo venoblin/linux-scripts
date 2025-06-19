@@ -116,8 +116,8 @@ with a corresponding SCSS file
 - If no type is specified as the second argument 
 then JavaScript(jsx) will be used
 ```sh
-# ezreactcmpntinit <path/componentname> <type(jsx or tsx)>
-ezreactcmpntinit ./project/components/NewComponentName tsx
+# ezreactcmpntinit <ComponentName> <path> <type(jsx or tsx)(default jsx)>
+ezreactcmpntinit NavBar ./src/components tsx
 ```
 
 ### `ezreadmeinit` 
