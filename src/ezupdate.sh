@@ -1,5 +1,5 @@
 #!/bin/bash
-#updates system, currently only supports zypper, dnf, and apt package managers
+#Updates system, currently only supports zypper, dnf, and apt package managers
 
 if which zypper &>/dev/null; then
   sudo zypper ref
