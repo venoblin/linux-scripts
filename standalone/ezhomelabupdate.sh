@@ -15,4 +15,4 @@ else
   exit 1
 fi
 
-snapraid sync > /var/log/snapraid-sync.log 2>&1
+sudo snapraid sync
