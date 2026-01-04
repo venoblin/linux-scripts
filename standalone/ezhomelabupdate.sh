@@ -1,5 +1,5 @@
 #!/bin/bash
-#Updates system, currently only supports zypper, dnf, and apt package managers
+#Updates homelab and also syncs snapraid
 
 if which zypper &>/dev/null; then
   sudo zypper ref
@@ -14,3 +14,5 @@ else
   echo "Error: Unsupported package manager"
   exit 1
 fi
+
+sudo snapraid sync
