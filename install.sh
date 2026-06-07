@@ -20,6 +20,8 @@ if ! command -v shc &>/dev/null; then
   #yes or no response case sensitive
   if [[ "$REPLY" =~ ^[Yy]$ ]]; then
     if which zypper &>/dev/null; then
+      sudo zypper addrepo https://download.opensuse.org/repositories/home:cabelo:innovators/openSUSE_Tumbleweed/home:cabelo:innovators.repo
+      sudo zypper refresh
       sudo zypper install shc gcc
     elif which dnf &>/dev/null; then
       sudo dnf install shc gcc-c++
